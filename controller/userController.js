@@ -1,7 +1,7 @@
 const asyncHandler = require("../middleware/asyncHandler");
 const userModel = require("../model/userModel");
 const cartModel = require("../model/cartModel");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
 const sendToken = require("../utils/jwt");
 
 //  /api/user/login
